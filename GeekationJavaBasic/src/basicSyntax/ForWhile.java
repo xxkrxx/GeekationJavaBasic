@@ -21,13 +21,12 @@ public class ForWhile {
         for (String language : array) {
             if (language.equals("Java")) {
                 System.out.println("現在学習中の言語はJavaです。");
-                continue;
             } else if (language.equals("HTML")) {
                 System.out.println("HTMLはプログラミング言語ではありません。");
-                continue;
             } else {
                 System.out.println("対象のプログラミング言語");
             }
         }
     }
 }
+
