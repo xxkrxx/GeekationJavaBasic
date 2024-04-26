@@ -1,9 +1,25 @@
 package objectExercise;
-//マンション
-public class Apartment extends Property{
-	Apartment(String name, String owner, String type,int price, String layout) {
-		super(name, owner, type, price, layout,0.0);
+
+public class Apartment extends Property {
+	private String layout;
+	
+	public Apartment(String name, String owner,int price, String layout) {
+		super(name, owner, price);
+		this.layout = layout;
+	}
+	
+	public String getLayout() {
+		return layout;
+	}
+	
+	public void setlayout(String layout) {
+		this.layout = layout;
 	}
 }
 
- 
+
+
+
+
+
+
