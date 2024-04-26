@@ -2,39 +2,39 @@ package objectExercise;
 
 public class Property {
     
-    protected String Name;    // 物件名
-    protected String Owner;   // 物件所有者名
-    protected int Price;      // 物件価格
+    protected String name;    // 物件名
+    protected String owner;   // 物件所有者名
+    protected int price;      // 物件価格
    
 
 
     Property(String name, String owner, int price) {
-        this.Name = name;
-        this.Owner = owner;
-        this.Price = price;
+        this.name = name;
+        this.owner = owner;
+        this.price = price;
     }
     
     public String getName() {
-        return this.Name;
+        return this.name;
     }
 
     public void setName(String name) {
-        this.Name = name;
+        this.name = name;
     }
 
     public String getOwner() {
-        return this.Owner;
+        return this.owner;
     }
 
     public void setOwner(String owner) {
-        this.Owner = owner;
+        this.owner = owner;
     }
 
     public int getPrice() {
-        return this.Price;
+        return this.price;
     }
 
     public void setPrice(int price) {
-        this.Price = price;
+        this.price = price;
     }
 }
